@@ -1,0 +1,12 @@
+{
+    "name": "LOL Live",
+    "version": "1.0.0",
+    "description": "checks if streamer is in game",
+    "manifest_version": 3,
+    "author": "Rourke Smith",
+    "permissions": ["https://respectable-league-api.herokuapp.com/news", "storage", "activeTab"],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    }
+}
